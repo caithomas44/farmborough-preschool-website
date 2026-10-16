@@ -8,6 +8,13 @@ The website for Farmborough Preschool, https://www.farmboroughpreschool.com/. A 
 
 Edit the files and push to `main`. GitHub Pages republishes within a minute or two.
 
+The `<head>` of `index.html` repeats facts from the page for search engines, AI assistants and
+social previews: the structured data block (`application/ld+json`: phone, email, address, fees,
+ages, staff, phone hours) and the Open Graph / X tags. When the page text changes those facts,
+change them there too. `images/social-share.jpg` (1200×630) is the picture shown when the site is
+shared on Facebook, WhatsApp, LinkedIn or X. After changing it, re-scrape the page in Facebook's
+Sharing Debugger so Facebook stops showing the old one.
+
 ## Hosting and DNS
 
 - GitHub Pages, custom domain `www.farmboroughpreschool.com` (the `CNAME` file), HTTPS enforced.
