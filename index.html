@@ -117,7 +117,7 @@
       "publisher": { "@id": "https://www.farmboroughpreschool.com/#preschool" }
     },
     {
-      "@type": "WebPage",
+      "@type": ["WebPage", "FAQPage"],
       "@id": "https://www.farmboroughpreschool.com/#webpage",
       "url": "https://www.farmboroughpreschool.com/",
       "name": "Farmborough Preschool, Bath | Play, Learn and Grow Together",
@@ -129,7 +129,73 @@
         "url": "https://www.farmboroughpreschool.com/images/social-share.jpg",
         "width": 1200,
         "height": 630
-      }
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What ages do you take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We welcome children from 2 years of age, and offer funded places for eligible 2, 3 and 4 year olds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does preschool cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our fee is £7.00 an hour, a universal rate for all children. Funded places are available for eligible 2, 3 and 4 year olds."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer funded places?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We are registered with Bath & North East Somerset Council to provide funded Early Years Education, and offer funded places for eligible 2, 3 and 4 year olds. You can check whether you are eligible for 15 or 30 hours of funded childcare on the Childcare Choices website."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I apply for a place?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Contact our Preschool Manager by email or phone. We will chat about your needs and session availability, invite you to come and look around and meet our management team, then give you registration forms so you can secure a space, subject to availability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How will my child settle in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Before your child starts, we invite you both to a stay and play session, usually held in the final term before the summer holidays, to meet our team and other parents. If your child needs it, we can also arrange settling in sessions so they can start preschool gradually."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is the preschool?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We are in a specially converted room within Farmborough Church Primary School, The Street, Farmborough, Bath, BA2 0FY. Our close links with the school help children move smoothly on to primary school."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What will my child do at preschool?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We follow the Early Years Foundation Stage (EYFS) and the Birth to 5 Matters curriculum guidance, and believe play is the main way young children learn. Each day has a structured routine, adult-led group time and plenty of free play, plus extras through the year such as Forest School, Zoolab visits, Spanish lessons and local trips."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the preschool Ofsted registered?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Farmborough Preschool is Ofsted registered, and our staff are DBS checked, registered with the Update Service and registered with Ofsted. We are also a registered charity (No. 1037250), run by a voluntary committee of parents."
+          }
+        }
+      ]
     }
   ]
 }
@@ -598,8 +664,51 @@
     </div>
   </section>
 
+  <!-- FAQ: the questions and answers are repeated in the FAQPage structured data in <head>; keep both the same -->
+  <section class="section alt anchor-offset" id="faq">
+    <div class="container">
+      <span class="eyebrow">Questions &amp; Answers</span>
+      <h2 class="section-title">Frequently asked questions</h2>
+      <p class="lede">Quick answers to common questions. If yours isn't here, please <a href="#contact">get in touch</a>.</p>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>What ages do you take?</summary>
+          <div class="faq-answer"><p>We welcome children from 2 years of age, and offer funded places for eligible 2, 3 and 4 year olds.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>How much does preschool cost?</summary>
+          <div class="faq-answer"><p>Our fee is &pound;7.00 an hour, a universal rate for all children. Funded places are available for eligible 2, 3 and 4 year olds.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Do you offer funded places?</summary>
+          <div class="faq-answer"><p>Yes. We are registered with Bath &amp; North East Somerset Council to provide funded Early Years Education, and offer funded places for eligible 2, 3 and 4 year olds. You can check whether you are eligible for 15 or 30 hours of funded childcare on the <a href="https://www.childcarechoices.gov.uk/" target="_blank" rel="noopener">Childcare Choices website</a>.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>How do I apply for a place?</summary>
+          <div class="faq-answer"><p>Contact our Preschool Manager by email or phone. We will chat about your needs and session availability, invite you to come and look around and meet our management team, then give you registration forms so you can secure a space, subject to availability.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>How will my child settle in?</summary>
+          <div class="faq-answer"><p>Before your child starts, we invite you both to a stay and play session, usually held in the final term before the summer holidays, to meet our team and other parents. If your child needs it, we can also arrange settling in sessions so they can start preschool gradually.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Where is the preschool?</summary>
+          <div class="faq-answer"><p>We are in a specially converted room within Farmborough Church Primary School, The Street, Farmborough, Bath, BA2 0FY. Our close links with the school help children move smoothly on to primary school.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>What will my child do at preschool?</summary>
+          <div class="faq-answer"><p>We follow the Early Years Foundation Stage (EYFS) and the Birth to 5 Matters curriculum guidance, and believe play is the main way young children learn. Each day has a structured routine, adult-led group time and plenty of free play, plus extras through the year such as Forest School, Zoolab visits, Spanish lessons and local trips.</p></div>
+        </details>
+        <details class="faq-item">
+          <summary>Is the preschool Ofsted registered?</summary>
+          <div class="faq-answer"><p>Yes. Farmborough Preschool is Ofsted registered, and our staff are DBS checked, registered with the Update Service and registered with Ofsted. We are also a registered charity (No. 1037250), run by a voluntary committee of parents.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
   <!-- CONTACT -->
-  <section class="section alt anchor-offset" id="contact">
+  <section class="section anchor-offset" id="contact">
     <div class="container">
       <span class="eyebrow">Contact Us</span>
       <h2 class="section-title">We'd love to hear from you</h2>
@@ -655,6 +764,7 @@
           <li><a href="#parents">Information for Parents</a></li>
           <li><a href="#team">Meet the Team</a></li>
           <li><a href="#fundraising">Fundraising</a></li>
+          <li><a href="#faq">FAQs</a></li>
         </ul>
       </div>
       <div>
