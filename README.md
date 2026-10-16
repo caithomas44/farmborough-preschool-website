@@ -12,8 +12,8 @@ Edit the files and push to `main`. GitHub Pages republishes within a minute or t
 
 - GitHub Pages, custom domain `www.farmboroughpreschool.com` (the `CNAME` file), HTTPS enforced.
   `farmboroughpreschool.com` redirects to `www`.
-- The domain is registered through Wix, so its DNS is edited in the Wix dashboard (Domains →
-  farmboroughpreschool.com → Manage DNS records). Wix does not allow the nameservers to be changed.
+- The domain is registered through Wix, and its DNS is edited in the Wix dashboard (Domains →
+  farmboroughpreschool.com → ⋯ → Manage DNS records).
 
 | Host | Type  | Value |
 |------|-------|-------|
